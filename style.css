@@ -1,0 +1,61 @@
+.container {
+  display: grid;
+  width: 550px;
+  height: 600px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "boxone boxone boxtwo"
+    "boxthree boxfour boxtwo"
+    "boxthree boxfive boxfive";
+}
+.boxone {
+  grid-area: boxone;
+}
+
+.boxtwo {
+  grid-area: boxtwo;
+}
+
+.boxthree {
+  grid-area: boxthree;
+}
+
+.boxfour {
+  grid-area: boxfour;
+}
+
+.boxfive {
+  grid-area: boxfive;
+}
+body {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.item {
+  background-color: #356dfcc3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 100;
+  color: aliceblue;
+}
+@media only screen and (max-width: 455px) {
+  body {
+    border: 2px solid  green;
+  }
+  .item {
+    flex-direction: column;
+    padding: 15px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Stacking boxes vertically */
+  }
+}
