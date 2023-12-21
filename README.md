@@ -29,3 +29,12 @@ To make the layout responsive, a media query is used. When the screen width is l
 This code can be used as a starting point for creating a responsive grid layout in HTML and CSS. It can be customized by modifying the grid template areas, box styles, and media query breakpoints to suit specific design requirements.
 
 To use this code, simply copy the HTML and CSS code into separate files (e.g., index.html and style.css) and link the CSS file in the HTML file using the `<link>` tag.
+
+
+
+The Layout is like:-
+![Screenshot (127)](https://github.com/theamaan/Penthara_Technologies_Assignment/assets/90848726/be6cc57f-48d1-4c09-80ce-4e0571534edf)
+
+
+The Responsive Design is like:-
+![Screenshot (128)](https://github.com/theamaan/Penthara_Technologies_Assignment/assets/90848726/079c6f91-fac8-4185-9033-7a18c7cb876b)
